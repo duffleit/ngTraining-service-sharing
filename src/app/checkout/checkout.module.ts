@@ -7,6 +7,6 @@ import { SharedModule } from '../_shared/shared.module';
 
 @NgModule({
   declarations: [CheckoutComponent],
-  imports: [CommonModule, CheckoutRoutingModule, SharedModule]
+  imports: [CommonModule, CheckoutRoutingModule, SharedModule.forChild()]
 })
 export class CheckoutModule {}

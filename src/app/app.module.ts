@@ -12,7 +12,7 @@ import { SharedModule } from './_shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     DashboardModule,
-    SharedModule,
+    SharedModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
